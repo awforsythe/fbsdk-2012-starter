@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="fbsdk-2012-x64-plugin"
+	>
+	<UserMacro
+		Name="MotionBuilderDirectory"
+		Value="C:\Program Files\Autodesk\MotionBuilder 2012 (64-bit)"
+	/>
+</VisualStudioPropertySheet>
