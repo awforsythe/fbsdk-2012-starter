@@ -14,21 +14,25 @@ sbuclass.
 
 Getting Started
 ---------------
-1. Open the Property Manager and check the User Macros for the
+1. Before opening the solution, run configure.py [NewPluginName] from the
+   command line in order to give your version of the project a sensible name.
+   Once the project is renamed, open the .sln file.
+
+2. Open the Property Manager and check the User Macros for the
    fbsdk-2012-win32-plugin and fbsdk-2012-x64-plugin property sheets. Ensure
    that the MotionBuilder installation path is noted correctly in each.
 
-2. Select the appropriate platform and the Debug build. Note that you must
+3. Select the appropriate platform and the Debug build. Note that you must
    have the corresponding version of MotionBuilder installed (Win32 or x64).
 
-3. Build the solution. If all is well, the plugin should build and the
+4. Build the solution. If all is well, the plugin should build and the
    post-build event (Deploying PluginName.dll...) should indicate
    *1 File(s) copied*.
 
-4. Press F5 to launch MotionBuilder in Debug mode. If warned about debug
+5. Press F5 to launch MotionBuilder in Debug mode. If warned about debug
    information, suppress the warning and click Yes.
 
-5. The new classes registered in *main.cpp* should now be accessible. To
+6. The new classes registered in *main.cpp* should now be accessible. To
    verify, click Open Reality in the menu bar, expand Tools, and click
    "*PluginName* Example Tool." A tool window should appear.
 
